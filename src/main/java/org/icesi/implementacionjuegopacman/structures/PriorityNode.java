@@ -1,0 +1,23 @@
+package org.icesi.implementacionjuegopacman.structures;
+
+public class PriorityNode<T> {
+    private T element;
+    private int priority;
+
+    public PriorityNode(T element, int priority) {
+        this.element = element;
+        this.priority = priority;
+    }
+
+    public T getElement() {
+        return element;
+    }
+
+    public int getPriority() {
+        return priority;
+    }
+
+    public void setPriority(int priority) {
+        this.priority = priority;
+    }
+}
